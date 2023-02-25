@@ -11,6 +11,13 @@ with open('/home/arka/Github/Python_PassCheck/Wordlist/MESCollege.txt') as f:
         split_line = re.split(r'[ ,]+', line)
         passwords += split_line
 
+with open('/home/arka/Github/Python_PassCheck/Wordlist/dis_union_upzila.txt') as f:
+    lines = f.read().splitlines()
+    passwords = []
+    for line in lines:
+        # split line based on spaces and commas using regular expression
+        split_line = re.split(r'[ ,]+', line)
+        passwords += split_line
 
 class Widget(QWidget, Ui_Widget):
     def __init__(self):
