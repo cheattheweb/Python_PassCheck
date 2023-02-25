@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1155</width>
+    <width>1921</width>
     <height>887</height>
    </rect>
   </property>
@@ -22,7 +22,7 @@
    <property name="geometry">
     <rect>
      <x>60</x>
-     <y>170</y>
+     <y>180</y>
      <width>111</width>
      <height>51</height>
     </rect>
@@ -39,8 +39,8 @@
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>70</x>
-     <y>270</y>
+     <x>60</x>
+     <y>260</y>
      <width>111</width>
      <height>41</height>
     </rect>
@@ -71,8 +71,8 @@
    <property name="geometry">
     <rect>
      <x>200</x>
-     <y>170</y>
-     <width>791</width>
+     <y>180</y>
+     <width>851</width>
      <height>41</height>
     </rect>
    </property>
@@ -89,7 +89,7 @@
     <rect>
      <x>200</x>
      <y>260</y>
-     <width>791</width>
+     <width>851</width>
      <height>41</height>
     </rect>
    </property>
@@ -97,8 +97,8 @@
   <widget class="QLabel" name="appName">
    <property name="geometry">
     <rect>
-     <x>470</x>
-     <y>0</y>
+     <x>820</x>
+     <y>20</y>
      <width>281</width>
      <height>81</height>
     </rect>
@@ -115,8 +115,8 @@
   <widget class="QLabel" name="description">
    <property name="geometry">
     <rect>
-     <x>330</x>
-     <y>80</y>
+     <x>640</x>
+     <y>90</y>
      <width>591</width>
      <height>71</height>
     </rect>
@@ -128,7 +128,7 @@
   <widget class="QLabel" name="passInfo">
    <property name="geometry">
     <rect>
-     <x>10</x>
+     <x>30</x>
      <y>440</y>
      <width>101</width>
      <height>41</height>
@@ -148,7 +148,7 @@
   <widget class="QLabel" name="passInfo_2">
    <property name="geometry">
     <rect>
-     <x>10</x>
+     <x>30</x>
      <y>490</y>
      <width>101</width>
      <height>41</height>
@@ -168,7 +168,7 @@
   <widget class="QLabel" name="passInfo_3">
    <property name="geometry">
     <rect>
-     <x>10</x>
+     <x>30</x>
      <y>550</y>
      <width>101</width>
      <height>41</height>
@@ -188,7 +188,7 @@
   <widget class="QLabel" name="passInfo_4">
    <property name="geometry">
     <rect>
-     <x>10</x>
+     <x>30</x>
      <y>600</y>
      <width>151</width>
      <height>41</height>
@@ -208,7 +208,7 @@
   <widget class="QLabel" name="passInfo_5">
    <property name="geometry">
     <rect>
-     <x>10</x>
+     <x>30</x>
      <y>660</y>
      <width>151</width>
      <height>31</height>
@@ -228,10 +228,10 @@
   <widget class="QTextBrowser" name="textBrowser">
    <property name="geometry">
     <rect>
-     <x>485</x>
-     <y>401</y>
-     <width>631</width>
-     <height>381</height>
+     <x>1120</x>
+     <y>170</y>
+     <width>751</width>
+     <height>681</height>
     </rect>
    </property>
   </widget>
