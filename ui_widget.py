@@ -101,7 +101,7 @@ class Ui_Widget(object):
 
     def retranslateUi(self, Ui_Widget):
         Ui_Widget.setWindowTitle(QCoreApplication.translate("Ui_Widget", u"Form", None))
-        self.UserName.setText(QCoreApplication.translate("Ui_Widget", u"User Name", None))
+        self.UserName.setText(QCoreApplication.translate("Ui_Widget", u"User Info", None))
         self.label_2.setText(QCoreApplication.translate("Ui_Widget", u"Password", None))
         self.pushButton.setText(QCoreApplication.translate("Ui_Widget", u"Check The Password", None))
         self.appName.setText(QCoreApplication.translate("Ui_Widget", u"PassCheck", None))
