@@ -1,3 +1,13 @@
+# -*- coding: utf-8 -*-
+
+################################################################################
+## Form generated from reading UI file 'widget.ui'
+##
+## Created by: Qt User Interface Compiler version 6.4.2
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
 from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
                             QMetaObject, QObject, QPoint, QRect,
                             QSize, QTime, QUrl, Qt)
@@ -47,16 +57,12 @@ class Ui_Widget(object):
         self.description = QLabel(Ui_Widget)
         self.description.setObjectName(u"description")
         self.description.setGeometry(QRect(640, 90, 591, 71))
-        self.passInfo = QLabel(Ui_Widget)
-        self.passInfo.setObjectName(u"passInfo")
-        self.passInfo.setGeometry(QRect(30, 440, 101, 41))
-        font3 = QFont()
-        font3.setPointSize(14)
-        font3.setBold(True)
-        self.passInfo.setFont(font3)
         self.passInfo_2 = QLabel(Ui_Widget)
         self.passInfo_2.setObjectName(u"passInfo_2")
         self.passInfo_2.setGeometry(QRect(30, 490, 101, 41))
+        font3 = QFont()
+        font3.setPointSize(14)
+        font3.setBold(True)
         self.passInfo_2.setFont(font3)
         self.passInfo_3 = QLabel(Ui_Widget)
         self.passInfo_3.setObjectName(u"passInfo_3")
@@ -73,9 +79,6 @@ class Ui_Widget(object):
         self.textBrowser = QTextBrowser(Ui_Widget)
         self.textBrowser.setObjectName(u"textBrowser")
         self.textBrowser.setGeometry(QRect(1120, 170, 751, 681))
-        self.score = QLabel(Ui_Widget)
-        self.score.setObjectName(u"score")
-        self.score.setGeometry(QRect(200, 450, 151, 22))
         self.guesses = QLabel(Ui_Widget)
         self.guesses.setObjectName(u"guesses")
         self.guesses.setGeometry(QRect(200, 500, 151, 22))
@@ -101,19 +104,17 @@ class Ui_Widget(object):
 
     def retranslateUi(self, Ui_Widget):
         Ui_Widget.setWindowTitle(QCoreApplication.translate("Ui_Widget", u"Form", None))
-        self.UserName.setText(QCoreApplication.translate("Ui_Widget", u"User Info", None))
+        self.UserName.setText(QCoreApplication.translate("Ui_Widget", u"User Name", None))
         self.label_2.setText(QCoreApplication.translate("Ui_Widget", u"Password", None))
         self.pushButton.setText(QCoreApplication.translate("Ui_Widget", u"Check The Password", None))
         self.appName.setText(QCoreApplication.translate("Ui_Widget", u"PassCheck", None))
         self.description.setText(QCoreApplication.translate("Ui_Widget",
-                                                            u"<html><head/><body><p><span style=\" font-size:12pt;\">A </span><span style=\" font-size:12pt; font-weight:600;\">Free and OpenSource </span><span style=\" font-size:12pt;\">Password Strength Checker. <br/>It uses real password patterns to mesure the strenght ot a given password.</span></p></body></html>",
+                                                            u"<html><head/><body><p><span style=\" font-size:12pt;\">A </span><span style=\" font-size:12pt; font-weight:600;\">Free and OpenSource </span><span style=\" font-size:12pt;\">Password Strength Checker. <br/>It uses real password patterns to mesure the strenght of a given password.</span></p></body></html>",
                                                             None))
-        self.passInfo.setText(QCoreApplication.translate("Ui_Widget", u"Score : ", None))
         self.passInfo_2.setText(QCoreApplication.translate("Ui_Widget", u"Guesses :", None))
         self.passInfo_3.setText(QCoreApplication.translate("Ui_Widget", u"100 / hour:", None))
         self.passInfo_4.setText(QCoreApplication.translate("Ui_Widget", u"10k / second:", None))
         self.passInfo_5.setText(QCoreApplication.translate("Ui_Widget", u"10B / second:", None))
-        self.score.setText("")
         self.guesses.setText("")
         self.tenH.setText("")
         self.tenKS.setText("")

@@ -122,27 +122,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;A &lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Free and OpenSource &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Password Strength Checker. &lt;br/&gt;It uses real password patterns to mesure the strenght ot a given password.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="passInfo">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
-     <y>440</y>
-     <width>101</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>14</pointsize>
-     <weight>75</weight>
-     <bold>true</bold>
-    </font>
-   </property>
-   <property name="text">
-    <string>Score : </string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;A &lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Free and OpenSource &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Password Strength Checker. &lt;br/&gt;It uses real password patterns to mesure the strenght of a given password.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="passInfo_2">
@@ -233,19 +213,6 @@
      <width>751</width>
      <height>681</height>
     </rect>
-   </property>
-  </widget>
-  <widget class="QLabel" name="score">
-   <property name="geometry">
-    <rect>
-     <x>200</x>
-     <y>450</y>
-     <width>151</width>
-     <height>22</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string/>
    </property>
   </widget>
   <widget class="QLabel" name="guesses">
